@@ -29,7 +29,7 @@ h3 {
 
 }
 
-/* --- Navigation Bar --- */
+
 .navbar {
     position: fixed;
     
@@ -42,7 +42,7 @@ h3 {
 
     
     background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(10px);
+    
   
     
 
@@ -85,8 +85,8 @@ h3 {
     border-bottom-color: #D4AF37;
 }
 
-/* --- Hero Section --- */
-.hero {
+
+.tittle {
     height: 100vh;
     
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/3934023/pexels-photo-3934023.jpeg');
@@ -99,22 +99,22 @@ h3 {
     padding: 0 20px;
 }
 
-.hero-content h1 {
+.tittle-content h1 {
     font-size: 4rem;
     margin-bottom: 1rem;
 }
 
-.hero-content p {
+.tittle-content p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
     max-width: 600px;
 }
 
-.hero-search-bar {
+.tittle-search-bar {
     margin-bottom: 2rem;
 }
 
-.hero-search-bar form {
+.tittle-search-bar form {
     display: flex;
     max-width: 600px;
     margin: 0 auto;
@@ -124,8 +124,8 @@ h3 {
     border: 1px solid #D4AF37;
 }
 
-.hero-search-bar input {
-    flex-grow: 1;
+.tittle-search-bar input {
+    flex: 1;
     border: none;
     padding: 15px 20px;
     font-size: 1rem;
@@ -133,15 +133,15 @@ h3 {
     color: #f4f4f4;
 }
 
-.hero-search-bar input::placeholder {
+.tittle-search-bar input::placeholder {
     color: #aaa;
 }
 
-.hero-search-bar input:focus {
+.tittle-search-bar input:focus {
     outline: none;
 }
 
-.hero-search-bar button {
+.tittle-search-bar button {
     border: none;
     background: #D4AF37;
     color: #1a1a1a;
@@ -168,11 +168,11 @@ h3 {
     transform: translateY(-3px);
 }
 
-.hero-search-bar button:hover {
+.tittle-search-bar button:hover {
     background-color: #e6c569;
 }
 
-/* --- Featured Listings Section --- */
+
 .featured-listings {
     padding: 80px 0;
 }
@@ -221,7 +221,7 @@ h3 {
     margin-bottom: 5px;
 }
 
-/* --- Why Us Section --- */
+
 .why-us {
     background-color: #222;
     padding: 80px 0;
@@ -279,7 +279,7 @@ h3 {
     color: #ccc;
 }
 
-/* --- Testimonials Section --- */
+
 .testimonials {
     padding: 80px 0;
     text-align: center;
@@ -317,7 +317,7 @@ h3 {
     color: #f4f4f4;
 }
 
-/* --- Footer --- */
+
 .site-footer {
     background-color: #111;
     color: #aaa;
