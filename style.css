@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,7 +11,7 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #1a1a1a;
-    
+
     color: #f4f4f4;
     line-height: 1.6;
 }
@@ -32,7 +33,7 @@ h3 {
 
 .navbar {
     position: fixed;
-    
+
     top: 0;
     left: 0;
     width: 100%;
@@ -40,11 +41,11 @@ h3 {
     z-index: 100;
     transition: background-color 0.3s ease;
 
-    
+
     background-color: rgba(0, 0, 0, 0.6);
-    
-  
-    
+
+
+
 
 }
 
@@ -88,7 +89,7 @@ h3 {
 
 .tittle {
     height: 100vh;
-    
+
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/3934023/pexels-photo-3934023.jpeg');
     background-size: cover;
     background-position: center;
@@ -164,7 +165,7 @@ h3 {
 
 .cta-button:hover {
     background-color: #e6c569;
-   
+
     transform: translateY(-3px);
 }
 
@@ -256,12 +257,12 @@ h3 {
 
 .feature-item:hover {
     transform: translateY(-5px);
-    
+
 }
 
 .feature-item:hover::before {
     opacity: 1;
-    
+
 }
 
 .feature-item .feature-icon {
